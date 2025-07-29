@@ -4,6 +4,7 @@
 this is
 a multi-line comment
 */
+
 // var a = 2;
 // let b = 3;
 // const c = 4;
@@ -137,24 +138,19 @@ a multi-line comment
 // console.log(a);
 // console.log(b);
 
-let userOne = {
-    email: 'user1@gmail.com',
-    upi: 'user1@ybl'
-};
 
-let userTwo = userOne;
-userTwo.email = 'user2@gmail.com';
-console.log(userOne.email);
+// let userOne = {
+//     email: 'user1@gmail.com',
+//     upi: 'user1@ybl'
+// };
 
+// let userTwo = userOne;
+// userTwo.email = 'user2@gmail.com';
+// console.log(userOne.email);
 
-
-
-
-
-
-
-
-
+// const arr = [1, 2, 3, 4, 5, 6, 7]; because arrays are mutable and so are objects.
+// arr.push(10);
+// console.log(arr);
 
 
 
