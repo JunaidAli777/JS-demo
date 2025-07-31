@@ -35,18 +35,62 @@
 // }
 
 
-const day = 3;
-switch (day) {
-    case 1:
-        console.log('Monday');
-        break;
-    case 2:
-        console.log('Tuesday');
-        break;
-    case 3:
-        console.log('Wednesday');
-        break;        
-    default:
-        console.log('did not find');    
-        break;
-}
+// const day = 3;
+// switch (day) {
+//     case 1:
+//         console.log('Monday');
+//         break;
+//     case 2:
+//         console.log('Tuesday');
+//         break;
+//     case 3:
+//         console.log('Wednesday');
+//         break;        
+//     default:
+//         console.log('did not find');    
+//         break;
+// }
+
+//a few examples of falsy value: false, 0, -0, 0n, "", mull, undefined, NaN
+//a few example of truthy value: true, "0", " ", [], {}, function() {}
+
+// const userEmail = "  hjfkdaskjnmew    ";
+// if(userEmail.trim()) {
+//     console.log('welcome');
+// } else {
+//     console.log('please enter a username');
+// }
+
+//to check if the array is empty
+// const arr = [];
+// if(arr.length > 0) {
+//     console.log('array has elements');
+// } else {
+//     console.log('empty array');
+// }
+
+// //to check if the object is empty
+// const obj = {};
+// if(obj.length > 0) {
+//     console.log('object has elements');
+// } else {
+//     console.log('empty object');
+// }
+
+// console.log(Boolean(false == 0));       would return true
+// console.log(Boolean(false == ''));      would return true
+// console.log(Boolean(0 == ''));      would return true
+
+
+// const age = 19;
+// if(age >= 18) {
+//     console.log('Adult');
+// } else {
+//     console.log('minor');
+// }
+
+// can also be written like this
+
+// const age = 19;
+// const category = age >= 18 ? "Adult" : "Minor";
+// console.log(category);
