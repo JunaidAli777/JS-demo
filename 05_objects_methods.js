@@ -18,7 +18,7 @@ const JsUser = {
 }
 // JsUser.greetingUser() //METHODS, basically when you make a function as a property of an object
 // JsUser.printemail()
-// JsUser.greeting = function() {
+// JsUser.greeting = function() {         this is an anonymous function here, i.e. a function with no name
 //     console.log('Hello JS user');
 // }
 

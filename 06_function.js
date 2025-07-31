@@ -104,7 +104,7 @@
 // } this would throw an error because the variable has been declared before
 
 
-//ARROW FUNCTIONS
+//ARROW FUNCTIONS.......introduced in ES6(2015)
 
 // function printname() {
 //     console.log('Junaid');
@@ -119,20 +119,20 @@
 
 // const addtwo = (num1, num2) => {
 //     return num1+num2
-// }
+// } // needs return keyword since {} have been used
 // console.log(addtwo(3, 2));
 
-// const addthree = (num1) => num1+3 //implicit return
+// const addthree = (num1) => num1+3 implicit return, does not need () or the return keyword
 
 // const addthree = (num1) => (
 //     num1
-// )
+// ) does not need the return keyword since () have been given
 // console.log(addthree(3));
 
 
 // const addtwo = (num1, num2) => (
 //     num1+num2
-// )
+// ) a function can be stored in a variable
 // console.log(addtwo(3, 2));
 
 

@@ -1,4 +1,4 @@
-//OLD WAY OF DOING IT
+//OLD WAY OF DOING IT ........here Person is a constructor function 
 // function Person(first, last, age, eye) {
 //   this.firstName = first;
 //   this.lastName = last;
@@ -16,7 +16,7 @@
 
 
 
-// NEW WAY OF DOING IT
+// NEW WAY OF DOING IT.......here Person is a class and it has its instance objects
 // class Person {
 //     constructor(first, last, age, eye) {
 //         this.firstName = first;
